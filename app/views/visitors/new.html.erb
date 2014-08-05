@@ -1,6 +1,6 @@
 <h1> Tic Tac Toe </h1>
 
-<button>New Game</button>
+<button> New Game <%= @player.newgame %></button>
 
 <p>  </p>
 
@@ -17,20 +17,22 @@
 		}
 	</style>
 	<tr>
-		<td height="100"><button><% @player.button1 %></button></td>
-		<td height="100"><button><% @player.button2 %></button></td>
-		<td height="100"><button><% @player.button3 %></button></td>
+		<td height="100"><button><%= @player.button1 %></button></td>
+		<td height="100"><button><%= @player.button2 %></button></td>
+		<td height="100"><button><%= @player.button3 %></button></td>
 	</tr>
 	<tr>
-		<td height="100"><button><% @player.button4 %></button></td>
-		<td height="100"><button><% @player.button5 %></button></td>
-		<td height="100"><button><% @player.button6 %></button></td>
+		<td height="100"><button><%= @player.button4 %></button></td>
+		<td height="100"><button><%= @player.button5 %></button></td>
+		<td height="100"><button><%= @player.button6 %></button></td>
 	</tr>
 	<tr>
-		<td height="100"><button><% @player.button7 %></button></td>
-		<td height="100"><button><% @player.button8 %></button></td>
-		<td height="100"><button><% @player.button9 %></button></td>
+		<td height="100"><button><%= @player.button7 %></button></td>
+		<td height="100"><button><%= @player.button8 %></button></td>
+		<td height="100"><button><%= @player.button9 %></button></td>
 	</tr>
 </table>
+
+
 
 <p>Today is <%= @player.pickdate %>.</p>
