@@ -5,13 +5,9 @@ Tic Tac Toe
   * player X starts by putting an X in any blank space
   * computer O responds by putting an O in a blank space
   * Player X then places the next X in another blank space ideally to try to make 3 in a row
-  * Computer O attempts to block X from getting 3 in a row while trying to get three in a row 
-  * Player and computer continue placing Xs and Os until one of the gets three in a row or the board fills up, if neither gets three in a row, its a tie game
+  * Player and computer continue placing Xs and Os until one of them gets three in a row or the board fills up, if neither gets three in a row, its a tie game
 
-  * app needs a start new game button that will refresh
-  * app will end when you close the window
-
-  * possible winning options
+  * Possible winning options
 	-buttons 1,2 and 3 are X or O
 	-buttons 4,5 and 6 are X or O
 	-buttons 7,8 and 9 are X or O
@@ -21,4 +17,4 @@ Tic Tac Toe
 	-buttons 2,5 and 8 are X or O
 	-buttons 3,6 and 9 are X or O
 
-  * when either X or O fills any of those combinations, the game is over and that player wins
+  * When either X or O fills any of those combinations, the game is over and that player wins.
